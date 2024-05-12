@@ -16,10 +16,12 @@ Instructions:
 user_items_input = str(input('Enter all items seperated by a comma:\n> '))
 user_items_list = []
 
+
 def input_formatting():
     to_list = user_items_input.split(',')
     for item in to_list:
         user_items_list.append(item.strip())
+
 
 input_formatting()
 
